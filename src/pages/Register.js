@@ -1,14 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-// import "../assets/css/register.css";
-// import "../assets/css/signin.css";
-
 
 export default function Register() {
   return (
-    // <div  className="reports">
-    <div>
-     <div className='section'>
+    <div  >
+         <div className='section'>
       <div class="screen-1">
         <div class="input_box">
           <label for="name">Full Name</label>
@@ -45,11 +41,11 @@ export default function Register() {
         </div>
         <button class="login">Sign Up</button>
         <div class="footer">
-          Already have account? <Link to="/" className="links_btn">Login</Link>
+          Already have account? <Link to="/login" className="links_btn">Login</Link>
         </div>
       </div>
     </div>
-
+    
 
 
     

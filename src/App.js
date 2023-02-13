@@ -10,6 +10,7 @@ import Products from "./pages/Products";
 import Reports from "./pages/Reports";
 import Login from "./pages/Login";
 import Register  from "./pages/Register";
+import Advertisers from "./pages/Advertisers";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/" exact component={Home} />
           <Route  path="/login" component={Login} />
           <Route  path="/register" component={Register} />
+          <Route  path="/advertisers" component={Advertisers} />
 
           <Route path="/products" component={Products} />
           <Route path="/reports" component={Reports} />
