@@ -34,19 +34,18 @@ export default function Advertisers() {
     <a href="#">All Advertisers</a>
     <a href="#">My Advertisers</a>
     <a href="#">Pending Advertisers</a>
+    <button className="add-advertiser-btn"> + Add Advertiser</button>
     </div>
 
 
     <div className="advertisers-lower">
-    {/* <a href="#">All Advertisers</a>
-    <a href="#">My Advertisers</a>
-    <a href="#">Pending Advertisers</a> */}
-    <div className="main-container">
-      <div className="list-item">
-        <div className="item-header" onClick={togglePending}>
-          Pending
-        </div>
-        {pendingVisible && (
+  
+        <div className="main-container">
+            <div className="list-item">
+            <div className="item-header" onClick={togglePending}>
+             Pending
+            </div>
+            {pendingVisible && (
           <div className="sub-list">
             <div>Status</div>
             <div>Active</div>
@@ -54,8 +53,8 @@ export default function Advertisers() {
             <div>Inactive</div>
           </div>
         )}
-      </div>
-      <div className="list-item">
+        </div>
+            <div className="list-item">
         <div className="item-header" onClick={toggleCountry}>
           Country
         </div>
@@ -85,11 +84,20 @@ export default function Advertisers() {
             <input type="text" placeholder="Search"></input>
           </div>
         )}
-      </div>
-    {/* </div> */}
+        </div>
+   
+        </div>
     </div>
 
-
+    <div className="advertisers-body">
+            <div className="advertisers-body-container">
+            <button className="advertisers-body-button">Advertiser</button>
+            <div className="advertisers-body-item">Contacts</div>
+            <div className="advertisers-body-item">Tags</div>
+            <div className="advertisers-body-item">Teammates</div>
+            <div className="advertisers-body-item">Registration</div>
+            <div className="advertisers-body-item">Conversions</div>
+    </div>
 
     </div>
 
