@@ -19,19 +19,19 @@ export const SidebarData = [
   },
   {
     title: "Advertisers",
-    path: "/products",
+    path: "/advertisers",
     icon: <FaIcons.FaCartPlus />,
     cName: "nav-text"
   },
   {
     title: "Affiliates",
-    path: "/team",
+    path: "/affiliates",
     icon: <IoIcons.IoMdPeople />,
     cName: "nav-text"
   },
   {
     title: "Offers",
-    path: "/",
+    path: "/offers",
     icon: <FaIcons.FaEnvelopeOpenText />,
     cName: "nav-text"
   },

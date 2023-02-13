@@ -30,15 +30,16 @@ export default function Advertisers() {
 
   return (
     <div className="advertisers">
-    <div className="advertisers-top">
-    <a href="#">All Advertisers</a>
-    <a href="#">My Advertisers</a>
-    <a href="#">Pending Advertisers</a>
-    <button className="add-advertiser-btn"> + Add Advertiser</button>
-    </div>
+        <h1 className='top-name-advertiser'>Advertisers</h1>
+        <div className="advertisers-top">
+            <a href="#">All Advertisers</a>
+            <a href="#">My Advertisers</a>
+            <a href="#">Pending Advertisers</a>
+            <button className="add-advertiser-btn"> + Add Advertiser</button>
+        </div>
 
 
-    <div className="advertisers-lower">
+     <div className="advertisers-lower">
   
         <div className="main-container">
             <div className="list-item">
@@ -87,9 +88,9 @@ export default function Advertisers() {
         </div>
    
         </div>
-    </div>
+     </div>
 
-    <div className="advertisers-body">
+     <div className="advertisers-body">
             <div className="advertisers-body-container">
             <button className="advertisers-body-button">Advertiser</button>
             <div className="advertisers-body-item">Contacts</div>
@@ -97,9 +98,9 @@ export default function Advertisers() {
             <div className="advertisers-body-item">Teammates</div>
             <div className="advertisers-body-item">Registration</div>
             <div className="advertisers-body-item">Conversions</div>
-    </div>
+         </div>
 
-    </div>
+     </div>
 
 
     

@@ -11,6 +11,8 @@ import Reports from "./pages/Reports";
 import Login from "./pages/Login";
 import Register  from "./pages/Register";
 import Advertisers from "./pages/Advertisers";
+import Offers from "./pages/Offers";
+import Affiliates from "./pages/Affiliates";
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
           <Route  path="/login" component={Login} />
           <Route  path="/register" component={Register} />
           <Route  path="/advertisers" component={Advertisers} />
+          <Route  path="/offers" component={Offers} />
+          <Route  path="/affiliates" component={Affiliates} />
 
           <Route path="/products" component={Products} />
           <Route path="/reports" component={Reports} />
