@@ -174,3 +174,193 @@
     border: 1px solid gray;
     border-radius: 5px;
   }
+
+
+
+
+
+  /* side pannel css here----> */
+
+
+  /* .add-advertiser-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ddd;
+  } */
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+
+
+
+  .add-advertiser-form {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 700px;
+    height: 100%;
+    background-color: rgb(244, 238, 238);
+    transition: all 1.5s ease;
+  }
+  
+  .add-advertiser-form.open {
+    right: 0;
+  }
+  
+  .add-advertiser-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .add-advertiser-form label input,
+  .add-advertiser-form label select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .add-advertiser-form input[type="submit"] {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .add-advertiser-form input[type="submit"]:hover {
+    background-color: #005b80;
+  }
+
+  h1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .payment-field-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #finicial-informaton{
+    display: block;
+    
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* css for this editted form */
+/* fix this code to display the password field and confirm password field to display in same row  */
+  label input[type="password"] {
+    display: block;
+    width: 30%;
+  }
+  
+  label input[name="confirmPassword"] {
+    display: block;
+    width: 30%;
+    
+  }
+
+  label {
+    display: block;
+    margin-left: 20px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+  }
+
+
+
+  
+.add-advertiser-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-advertiser-form input,
+.add-advertiser-form select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.add-advertiser-form .credential h3 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.add-advertiser-form .contact,
+.add-advertiser-form .address,
+.add-advertiser-form .administration {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.add-advertiser-form .contact h2,
+.add-advertiser-form .address h2,
+.add-advertiser-form .administration h2 {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.add-advertiser-form .add-contact-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-advertiser-form input[type="submit"] {
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
