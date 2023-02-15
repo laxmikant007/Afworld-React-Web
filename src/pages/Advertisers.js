@@ -138,8 +138,6 @@ export default function Advertisers() {
                 <textarea autosize="" class="payment-field-text"></textarea>
             </label>
           </div>
-
-       
           <div class="administration">
             <h2>Administration</h2>
             <label>
