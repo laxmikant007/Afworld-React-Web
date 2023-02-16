@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import signupImage from "../assets/images/sign-up.jpg"
+import "../assets/css/register.css";
 
 export default function Register() {
   return (
-    <div  >
-         <div className='section'>
+    <div className='container' >
+     <div className='section'>
       <div class="screen-1">
         <div class="input_box">
           <label for="name">Full Name</label>
@@ -44,8 +46,12 @@ export default function Register() {
           Already have account? <Link to="/login" className="links_btn">Login</Link>
         </div>
       </div>
+
+
     </div>
-    
+          <div class="image-container">
+          <img src={signupImage} alt="Image" style={{ maxWidth: "100%", height: "auto" , width:"40vh" }}/>
+          </div>
 
 
     

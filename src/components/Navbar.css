@@ -3,11 +3,19 @@
 }
 
 .navbar {
+  /* background-color: var(--navBg);
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center; */
   background-color: var(--navBg);
   height: 80px;
   display: flex;
   justify-content: start;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .menu-bars {

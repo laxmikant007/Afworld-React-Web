@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/register.css";
-import "../assets/css/signin.css";
+import loginImage from  "../assets/images/login-page.jpg"
+// import "../assets/css/signin.css";
 
 export default function Login()  {
   return (
+    <div className="container">
+     
     <div className="section">
       <div class="screen-1">
         <div class="input_box">
@@ -32,6 +35,11 @@ export default function Login()  {
           <Link className="links_btn">Forgot Password?</Link>
         </div>
       </div>
+    </div>
+    <div class="image-container">
+      <img src={loginImage} alt="Image" style={{ maxWidth: "100%", height: "auto" }}/>
+    </div>
+   
     </div>
 
   );
