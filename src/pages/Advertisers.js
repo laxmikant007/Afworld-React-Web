@@ -126,7 +126,7 @@ export default function Advertisers() {
                 <input type="text" name="postcode" />
             </label>
             <label>
-                Street:
+                Street :
                 <input type="text" name="street" />
             </label>
           </div>
@@ -139,7 +139,7 @@ export default function Advertisers() {
             </label>
           </div>
           <div class="administration">
-            <h2>Administration</h2>
+            <h2>Administration  </h2>
             <label>
                 Tags:
                 <select name="tags">
